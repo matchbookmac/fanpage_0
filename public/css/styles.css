@@ -1,0 +1,29 @@
+.jumbotron > h1 {
+  color: #fff;
+}
+
+.jumbotron {
+  background-image: url(../img/frank-sinatra.jpg);
+  background-size: contain;
+  margin-top: 60px;
+  margin-bottom: 0px;
+}
+
+.navbar-brand > img#brand {
+  width: 32px;
+  height: 32px;
+}
+
+.navbar-brand {
+  padding-top: 9px;
+}
+
+.content {
+  margin-bottom: 60px;
+}
+
+@media(max-width: 767px) {
+  .jumbotron {
+    margin-top: 240px;
+  }
+}

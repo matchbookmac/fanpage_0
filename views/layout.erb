@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <!-- Header -->
+  <head>
+    <link rel='stylesheet' type='text/css' media='all' href='/bootstrap/css/bootstrap.min.css'>
+    <link rel='stylesheet' type='text/css' href='/css/styles.css'>
+    <link rel='icon' href='/favicon.ico'>
+    <title>Ian's Frank Sinatra Fanpage</title>
+  </head>
+  <!-- /Header -->
+
+  <!-- Body -->
+  <body>
+
+    <!-- Navigation -->
+    <div class='container'>
+      <nav class='navbar navbar-fixed-top navbar-inverse'>
+        <div class='container-fluid'>
+          <div class='navbar-header'>
+            <a class='navbar-brand' href='#'>
+              <img id='brand' alt='The Man' class='img-rounded' src='img/favicon32x32.ico'>
+            </a>
+          </div>
+            <p class='navbar-text'>Ian's Frank Sinatra Fanpage</p>
+            <ul class='nav navbar-nav'>
+              <li><a href='/'>Home</a></li>
+              <li><a href='/bio'>Bio<span class='sr-only'>(current)</span></a></li>
+              <li><a href='/songs'>Songs</a></li>
+            </ul>
+        </div>
+      </nav>
+    </div>
+    <!-- /Navigation -->
+
+    <!-- Jumbotron -->
+    <div class='container'>
+      <div class='jumbotron'></div>
+    </div>
+    <!-- /Jumbotron -->
+
+    <!-- Content -->
+    <div class='container content'>
+      <!-- Site Items -->
+      <%= yield %>
+      <!-- Site Items -->
+    </div>
+    <!-- /Content -->
+
+    <!-- Footer -->
+    <nav class='navbar navbar-inverse navbar-fixed-bottom'>
+      <div class='container'>
+        <footer>
+          <p class="navbar-text">Ian C MacDonald 2015</p>
+        </footer>
+      </div>
+    </nav>
+    <!-- /Footer -->
+
+  </body>
+  <!-- /body -->
+
+</html>
